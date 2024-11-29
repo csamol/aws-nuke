@@ -19,7 +19,7 @@ careful while using it. Otherwise you might delete production data.
 **We strongly advise you to not run this application on any AWS account, where
 you cannot afford to lose all resources.**
 
-To reduce the blast radius of accidents, there are some safety precautions:
+To reduce the blast radius of accidents, there are some safety precautions::
 
 1. By default *aws-nuke* only lists all nukeable resources. You need to add
    `--no-dry-run` to actually delete resources.
